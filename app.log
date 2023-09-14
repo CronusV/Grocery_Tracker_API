@@ -86,3 +86,9 @@
 2023-09-14T19:53:09.058Z [info]: Successful POST:
 [{"item":"Butter","quantity":43,"price":2,"bought":false},{"item":"Grapes","quantity":43,"price":2,"bought":false},{"item":"Cereal","quantity":43,"price":2,"bought":false}]
 2023-09-14T19:53:11.383Z [info]: Successful GET
+2023-09-14T19:57:58.687Z [info]: Successful GET
+2023-09-14T19:58:06.351Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false},{"item":"Cereal","quantity":43,"price":2,"bought":false}]
+2023-09-14T19:58:21.142Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false},{"item":"Cereal","quantity":43,"price":2,"bought":false},{"item":"water","quantity":43,"price":2,"bought":false}]
+2023-09-14T19:58:27.184Z [warn]: Unsuccessful change of grocery item because invalid name or no name

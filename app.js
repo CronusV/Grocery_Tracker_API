@@ -105,17 +105,19 @@ const server = http.createServer((req, res) => {
         );
         res.writeHead(400, { 'Content-Type': 'application/json' });
         res.end(
-          `Unsuccessful change of grocery item because of an invalid name or no name.
-           Make sure it is in JSON format and includes a name. You can also add optional fields such as quantity, bought, or price.
-        
-           Example:
-           {
-             "item": "jello",
-             "price": 23,
-             "bought": true
-           }
-        
-           This code finds the item "jello" in the grocery list (if it exists) and changes the price to 23 and sets "bought" to true.`
+          JSON.stringify({
+            message: `Unsuccessful change of grocery item because of an invalid name or no name.
+          Make sure it is in JSON format and includes a name. You can also add optional fields such as quantity, bought, or price.
+       
+          Example:
+          {
+            "item": "jello",
+            "price": 23,
+            "bought": true
+          }
+       
+          This code finds the item "jello" in the grocery list (if it exists) and changes the price to 23 and sets "bought" to true.`,
+          })
         );
       }
     });
@@ -134,15 +136,23 @@ const server = http.createServer((req, res) => {
       } else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
         logger.warn("Wasn't able to delete because invalid item name");
-        res.end(`Wasn't able to delete because invalid item name`);
+        res.end(
+          JSON.stringify({
+            message: `Wasn't able to delete because invalid item name`,
+          })
+        );
       }
     } else {
       res.writeHead(404, { 'Content-Type': 'text/plain' });
       logger.warn("Wasn't able to delete because no item name");
-      res.end(`
-        Wasn't able to delete because no item name.
-        Make sure to have in the query parameters:
-        http://localhost:3000/?item=<item_to_delete>`);
+      res.end(
+        JSON.stringify({
+          message: `
+      Wasn't able to delete because no item name.
+      Make sure to have in the query parameters:
+      http://localhost:3000/?item=<item_to_delete>`,
+        })
+      );
     }
   }
 });
