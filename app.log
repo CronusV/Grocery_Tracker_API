@@ -1,0 +1,14 @@
+2023-09-14T18:26:01.007Z [info]: Successful GET with response: 
+2023-09-14T18:28:03.286Z [info]: Successful GET with response: [object Object]
+2023-09-14T18:36:32.822Z [info]: Successful POST:
+2023-09-14T18:37:26.755Z [info]: Successful GET
+2023-09-14T18:38:07.869Z [info]: Successful GET
+2023-09-14T18:38:11.194Z [info]: Successful POST:
+2023-09-14T18:38:17.159Z [info]: Successful GET
+2023-09-14T18:38:55.317Z [info]: Successful GET
+2023-09-14T18:38:57.216Z [info]: Successful POST:
+2023-09-14T18:39:45.094Z [info]: Successful GET
+2023-09-14T18:39:47.048Z [info]: Successful POST: + [{"item":"jello","quantity":23,"price":5,"bought":false},{"item":"Butter","quantity":43,"price":2,"bought":false}]
+2023-09-14T18:40:24.561Z [info]: Successful GET
+2023-09-14T18:40:27.161Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false},{"item":"Butter","quantity":43,"price":2,"bought":false}]
