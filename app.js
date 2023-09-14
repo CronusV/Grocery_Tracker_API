@@ -2,6 +2,7 @@
 const { createLogger, transports, format } = require('winston');
 // HTTP Methods
 const http = require('http');
+const url = require('node:url');
 const PORT = 3000;
 
 // This serves as my database (for now)
@@ -32,7 +33,18 @@ function editGrocery(newItem) {
   // Item not found
   return false;
 }
-
+function deleteItemInGrocery(itemName) {
+  const oldSize = groceryList.length;
+  groceryList = groceryList.filter((groceryItem) => {
+    return groceryItem.item !== itemName;
+  });
+  // Nothing changed
+  if (oldSize === groceryList.length) {
+    return false;
+  } else {
+    return true;
+  }
+}
 // create the logger
 const logger = createLogger({
   level: 'info', // this will log only messages with the level 'info' and above
@@ -47,11 +59,6 @@ const logger = createLogger({
     new transports.File({ filename: 'app.log' }), // log to a file
   ],
 });
-
-// using the logger
-// logger.info("This is an info message");
-// logger.error("This is an error message");
-// logger.warn("This is a warning message");
 
 const server = http.createServer((req, res) => {
   // GET for grocery list
@@ -91,7 +98,7 @@ const server = http.createServer((req, res) => {
       if (editGrocery(dataToEdit)) {
         logger.info(`Successful PUT to change grocery item`);
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ message: 'Resource Successfully Changed' }));
+        res.end(JSON.stringify({ message: 'Resource Successfuly Changed' }));
       } else {
         logger.warn(
           'Unsuccessful change of grocery item because invalid name or no name'
@@ -112,6 +119,31 @@ const server = http.createServer((req, res) => {
         );
       }
     });
+    // Delete with query params, example http://localhost:3000/?item=jello
+  } else if (req.method === 'DELETE') {
+    console.log('in delete!');
+    const requestUrl = url.parse(req.url).query; //gets item=jello
+    // This allows us to search the query
+    const deleteItem = new URLSearchParams(requestUrl);
+    const item = deleteItem.get('item');
+    if (item) {
+      if (deleteItemInGrocery(item)) {
+        logger.info(`Successful DELETE: ${item}`);
+        res.writeHead(201, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ message: 'Resource Deleted Successfully' }));
+      } else {
+        res.writeHead(404, { 'Content-Type': 'text/plain' });
+        logger.warn("Wasn't able to delete because invalid item name");
+        res.end(`Wasn't able to delete because invalid item name`);
+      }
+    } else {
+      res.writeHead(404, { 'Content-Type': 'text/plain' });
+      logger.warn("Wasn't able to delete because no item name");
+      res.end(`
+        Wasn't able to delete because no item name.
+        Make sure to have in the query parameters:
+        http://localhost:3000/?item=<item_to_delete>`);
+    }
   }
 });
 

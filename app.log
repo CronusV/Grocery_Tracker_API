@@ -66,3 +66,23 @@
 2023-09-14T19:25:33.779Z [warn]: Unsuccessful change of grocery item because invalid name or no name
 2023-09-14T19:27:58.134Z [info]: Successful GET
 2023-09-14T19:28:00.816Z [warn]: Unsuccessful change of grocery item because invalid name or no name
+2023-09-14T19:35:00.754Z [info]: Successful GET
+2023-09-14T19:40:07.038Z [info]: Successful GET
+2023-09-14T19:49:23.534Z [info]: Successful GET
+2023-09-14T19:50:17.785Z [info]: Successful GET
+2023-09-14T19:50:26.007Z [info]: Successful GET
+2023-09-14T19:50:27.925Z [info]: Successful GET
+2023-09-14T19:50:28.943Z [info]: Successful GET
+2023-09-14T19:50:32.556Z [warn]: Wasn't able to delete because invalid item name
+2023-09-14T19:52:22.342Z [info]: Successful GET
+2023-09-14T19:52:29.396Z [info]: Successful DELETE: jello
+2023-09-14T19:52:31.721Z [warn]: Wasn't able to delete because invalid item name
+2023-09-14T19:52:34.286Z [warn]: Wasn't able to delete because invalid item name
+2023-09-14T19:52:45.043Z [info]: Successful GET
+2023-09-14T19:52:51.852Z [info]: Successful POST:
+[{"item":"Butter","quantity":43,"price":2,"bought":false}]
+2023-09-14T19:53:03.860Z [info]: Successful POST:
+[{"item":"Butter","quantity":43,"price":2,"bought":false},{"item":"Grapes","quantity":43,"price":2,"bought":false}]
+2023-09-14T19:53:09.058Z [info]: Successful POST:
+[{"item":"Butter","quantity":43,"price":2,"bought":false},{"item":"Grapes","quantity":43,"price":2,"bought":false},{"item":"Cereal","quantity":43,"price":2,"bought":false}]
+2023-09-14T19:53:11.383Z [info]: Successful GET
