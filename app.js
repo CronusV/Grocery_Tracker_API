@@ -14,6 +14,25 @@ const temp = {
   bought: false,
 };
 groceryList.push(temp);
+
+function editGrocery(newItem) {
+  // Didn't provide an item to change
+  if (!'item' in newItem) return false;
+
+  for (groceryItem of groceryList) {
+    if (groceryItem.item === newItem.item) {
+      logger.info(`Old groceryItem:\n${JSON.stringify(groceryItem)}`);
+      if ('quantity' in newItem) groceryItem.quantity = newItem.quantity;
+      if ('price' in newItem) groceryItem.price = newItem.price;
+      if ('bought' in newItem) groceryItem.bought = newItem.bought;
+      logger.info(`New groceryItem:\n${JSON.stringify(groceryItem)}`);
+      return true;
+    }
+  }
+  // Item not found
+  return false;
+}
+
 // create the logger
 const logger = createLogger({
   level: 'info', // this will log only messages with the level 'info' and above
@@ -40,6 +59,7 @@ const server = http.createServer((req, res) => {
     logger.info(`Successful GET`);
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(groceryList));
+    // POST for adding groceries
   } else if (req.method === 'POST' && req.url === '/api/grocery-add') {
     let body = '';
     // Gets the body from request
@@ -55,6 +75,42 @@ const server = http.createServer((req, res) => {
 
       res.writeHead(201, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ message: 'Resource Created Successfully!' }));
+    });
+    // PUT for editing all values of an item minimum needs {item:a, <other things to change>}
+  } else if (req.method === 'PUT' && req.url === '/api/grocery-edit') {
+    let body = '';
+
+    // Gets the body from request
+    req.on('data', (chunk) => {
+      body += chunk;
+    });
+
+    req.on('end', () => {
+      const dataToEdit = JSON.parse(body);
+      // Check if you can edit it
+      if (editGrocery(dataToEdit)) {
+        logger.info(`Successful PUT to change grocery item`);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ message: 'Resource Successfully Changed' }));
+      } else {
+        logger.warn(
+          'Unsuccessful change of grocery item because invalid name or no name'
+        );
+        res.writeHead(400, { 'Content-Type': 'application/json' });
+        res.end(
+          `Unsuccessful change of grocery item because of an invalid name or no name.
+           Make sure it is in JSON format and includes a name. You can also add optional fields such as quantity, bought, or price.
+        
+           Example:
+           {
+             "item": "jello",
+             "price": 23,
+             "bought": true
+           }
+        
+           This code finds the item "jello" in the grocery list (if it exists) and changes the price to 23 and sets "bought" to true.`
+        );
+      }
     });
   }
 });
