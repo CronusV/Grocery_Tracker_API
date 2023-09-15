@@ -119,3 +119,330 @@
 2023-09-15T18:04:52.124Z [info]: Successful GET
 2023-09-15T18:04:52.127Z [info]: Successful DELETE: jello
 2023-09-15T18:04:52.129Z [info]: Successful GET
+2023-09-15T18:13:03.945Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:13:03.959Z [info]: Successful GET
+2023-09-15T18:13:03.962Z [info]: Successful DELETE: jello
+2023-09-15T18:13:03.964Z [info]: Successful GET
+2023-09-15T18:13:03.971Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:13:03.973Z [info]: Successful GET
+2023-09-15T18:13:03.975Z [info]: Successful DELETE: jello
+2023-09-15T18:13:03.977Z [info]: Successful GET
+2023-09-15T18:13:32.656Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:13:32.670Z [info]: Successful GET
+2023-09-15T18:13:32.675Z [info]: Successful DELETE: jello
+2023-09-15T18:13:32.677Z [info]: Successful GET
+2023-09-15T18:13:32.684Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:13:32.686Z [info]: Successful GET
+2023-09-15T18:13:32.689Z [info]: Successful DELETE: jello
+2023-09-15T18:13:32.691Z [info]: Successful GET
+2023-09-15T18:16:54.510Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:16:54.524Z [info]: Successful GET
+2023-09-15T18:16:54.527Z [info]: Successful DELETE: jello
+2023-09-15T18:16:54.529Z [info]: Successful GET
+2023-09-15T18:16:54.536Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:16:54.538Z [info]: Successful GET
+2023-09-15T18:16:54.540Z [info]: Successful DELETE: jello
+2023-09-15T18:16:54.542Z [info]: Successful GET
+2023-09-15T18:16:54.545Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:19:12.150Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:19:12.166Z [info]: Successful GET
+2023-09-15T18:19:12.170Z [info]: Successful DELETE: jello
+2023-09-15T18:19:12.172Z [info]: Successful GET
+2023-09-15T18:19:12.179Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:19:12.181Z [info]: Successful GET
+2023-09-15T18:19:12.183Z [info]: Successful DELETE: jello
+2023-09-15T18:19:12.185Z [info]: Successful GET
+2023-09-15T18:19:12.187Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:19:38.083Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:19:38.100Z [info]: Successful GET
+2023-09-15T18:19:38.103Z [info]: Successful DELETE: jello
+2023-09-15T18:19:38.106Z [info]: Successful GET
+2023-09-15T18:19:38.112Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:19:38.114Z [info]: Successful GET
+2023-09-15T18:19:38.116Z [info]: Successful DELETE: jello
+2023-09-15T18:19:38.118Z [info]: Successful GET
+2023-09-15T18:19:38.121Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:19:38.124Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:47:38.314Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:47:38.328Z [info]: Successful GET
+2023-09-15T18:47:38.332Z [info]: Successful DELETE: jello
+2023-09-15T18:47:38.334Z [info]: Successful GET
+2023-09-15T18:47:38.341Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:47:38.344Z [info]: Successful GET
+2023-09-15T18:47:38.346Z [info]: Successful DELETE: jello
+2023-09-15T18:47:38.348Z [info]: Successful GET
+2023-09-15T18:47:38.351Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:47:38.353Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:47:38.357Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:47:38.359Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:47:38.359Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:47:38.360Z [info]: Successful PUT to change grocery item
+2023-09-15T18:47:38.362Z [info]: Successful GET
+2023-09-15T18:47:38.366Z [info]: Successful DELETE: jello
+2023-09-15T18:48:10.165Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:48:10.180Z [info]: Successful GET
+2023-09-15T18:48:10.183Z [info]: Successful DELETE: jello
+2023-09-15T18:48:10.186Z [info]: Successful GET
+2023-09-15T18:48:10.192Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:48:10.195Z [info]: Successful GET
+2023-09-15T18:48:10.198Z [info]: Successful DELETE: jello
+2023-09-15T18:48:10.200Z [info]: Successful GET
+2023-09-15T18:48:10.203Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:48:10.206Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:48:10.210Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:48:10.214Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:48:10.215Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:48:10.215Z [info]: Successful PUT to change grocery item
+2023-09-15T18:48:10.218Z [info]: Successful GET
+2023-09-15T18:48:10.222Z [info]: Successful DELETE: jello
+2023-09-15T18:48:45.609Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:48:45.619Z [info]: Successful GET
+2023-09-15T18:48:45.622Z [info]: Successful DELETE: jello
+2023-09-15T18:48:45.625Z [info]: Successful GET
+2023-09-15T18:48:45.631Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:48:45.633Z [info]: Successful GET
+2023-09-15T18:48:45.636Z [info]: Successful DELETE: jello
+2023-09-15T18:48:45.637Z [info]: Successful GET
+2023-09-15T18:48:45.640Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:48:45.643Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:48:45.645Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:48:45.648Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:48:45.649Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:48:45.649Z [info]: Successful PUT to change grocery item
+2023-09-15T18:48:45.651Z [info]: Successful GET
+2023-09-15T18:48:45.658Z [info]: Successful DELETE: jello
+2023-09-15T18:49:49.336Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:49:49.350Z [info]: Successful GET
+2023-09-15T18:49:49.354Z [info]: Successful DELETE: jello
+2023-09-15T18:49:49.357Z [info]: Successful GET
+2023-09-15T18:49:49.363Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:49:49.365Z [info]: Successful GET
+2023-09-15T18:49:49.367Z [info]: Successful DELETE: jello
+2023-09-15T18:49:49.369Z [info]: Successful GET
+2023-09-15T18:49:49.372Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:49:49.374Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:49:49.377Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:49:49.380Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:49:49.380Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:49:49.381Z [info]: Successful PUT to change grocery item
+2023-09-15T18:49:49.383Z [info]: Successful GET
+2023-09-15T18:49:49.388Z [info]: Successful DELETE: jello
+2023-09-15T18:51:49.488Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:51:49.502Z [info]: Successful GET
+2023-09-15T18:51:49.506Z [info]: Successful DELETE: jello
+2023-09-15T18:51:49.508Z [info]: Successful GET
+2023-09-15T18:51:49.515Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:51:49.518Z [info]: Successful GET
+2023-09-15T18:51:49.520Z [info]: Successful DELETE: jello
+2023-09-15T18:51:49.522Z [info]: Successful GET
+2023-09-15T18:51:49.525Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:51:49.527Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:51:49.530Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:51:49.532Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:51:49.532Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:51:49.533Z [info]: Successful PUT to change grocery item
+2023-09-15T18:51:49.534Z [info]: Successful GET
+2023-09-15T18:51:49.542Z [info]: Successful DELETE: jello
+2023-09-15T18:52:33.294Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:52:33.309Z [info]: Successful GET
+2023-09-15T18:52:33.313Z [info]: Successful DELETE: jello
+2023-09-15T18:52:33.315Z [info]: Successful GET
+2023-09-15T18:52:33.322Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:52:33.325Z [info]: Successful GET
+2023-09-15T18:52:33.327Z [info]: Successful DELETE: jello
+2023-09-15T18:52:33.329Z [info]: Successful GET
+2023-09-15T18:52:33.331Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:52:33.334Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:52:33.336Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:52:33.339Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:52:33.340Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:52:33.340Z [info]: Successful PUT to change grocery item
+2023-09-15T18:52:33.342Z [info]: Successful GET
+2023-09-15T18:52:33.350Z [info]: Successful DELETE: jello
+2023-09-15T18:53:12.359Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:53:12.387Z [info]: Successful GET
+2023-09-15T18:53:12.391Z [info]: Successful DELETE: jello
+2023-09-15T18:53:12.393Z [info]: Successful GET
+2023-09-15T18:53:12.401Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:53:12.403Z [info]: Successful GET
+2023-09-15T18:53:12.405Z [info]: Successful DELETE: jello
+2023-09-15T18:53:12.407Z [info]: Successful GET
+2023-09-15T18:53:12.410Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:53:12.413Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:53:12.417Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:53:12.419Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:53:12.420Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:53:12.420Z [info]: Successful PUT to change grocery item
+2023-09-15T18:53:12.423Z [info]: Successful GET
+2023-09-15T18:53:12.426Z [info]: Successful DELETE: jello
+2023-09-15T18:53:57.935Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:53:57.950Z [info]: Successful GET
+2023-09-15T18:53:57.954Z [info]: Successful DELETE: jello
+2023-09-15T18:53:57.956Z [info]: Successful GET
+2023-09-15T18:53:57.963Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:53:57.966Z [info]: Successful GET
+2023-09-15T18:53:57.968Z [info]: Successful DELETE: jello
+2023-09-15T18:53:57.970Z [info]: Successful GET
+2023-09-15T18:53:57.974Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:53:57.977Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:53:57.980Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:53:57.982Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:53:57.982Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:53:57.983Z [info]: Successful PUT to change grocery item
+2023-09-15T18:53:57.984Z [info]: Successful GET
+2023-09-15T18:53:57.989Z [info]: Successful DELETE: jello
+2023-09-15T18:54:21.904Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:54:21.919Z [info]: Successful GET
+2023-09-15T18:54:21.923Z [info]: Successful DELETE: jello
+2023-09-15T18:54:21.925Z [info]: Successful GET
+2023-09-15T18:54:21.932Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:54:21.934Z [info]: Successful GET
+2023-09-15T18:54:21.936Z [info]: Successful DELETE: jello
+2023-09-15T18:54:21.938Z [info]: Successful GET
+2023-09-15T18:54:21.941Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:54:21.943Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:54:21.946Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:54:21.949Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:54:21.949Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:54:21.950Z [info]: Successful PUT to change grocery item
+2023-09-15T18:54:21.952Z [info]: Successful GET
+2023-09-15T18:54:21.955Z [info]: Successful DELETE: jello
+2023-09-15T18:54:45.861Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:54:45.877Z [info]: Successful GET
+2023-09-15T18:54:45.881Z [info]: Successful DELETE: jello
+2023-09-15T18:54:45.883Z [info]: Successful GET
+2023-09-15T18:54:45.889Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:54:45.891Z [info]: Successful GET
+2023-09-15T18:54:45.893Z [info]: Successful DELETE: jello
+2023-09-15T18:54:45.895Z [info]: Successful GET
+2023-09-15T18:54:45.898Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:54:45.901Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:54:45.903Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:54:45.906Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:54:45.906Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:54:45.907Z [info]: Successful PUT to change grocery item
+2023-09-15T18:54:45.909Z [info]: Successful GET
+2023-09-15T18:54:45.913Z [info]: Successful DELETE: jello
+2023-09-15T18:57:51.016Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:57:51.030Z [info]: Successful GET
+2023-09-15T18:57:51.034Z [info]: Successful DELETE: jello
+2023-09-15T18:57:51.037Z [info]: Successful GET
+2023-09-15T18:57:51.044Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:57:51.046Z [info]: Successful GET
+2023-09-15T18:57:51.048Z [info]: Successful DELETE: jello
+2023-09-15T18:57:51.050Z [info]: Successful GET
+2023-09-15T18:57:51.052Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T18:57:51.055Z [warn]: Wasn't able to delete because no item name
+2023-09-15T18:57:51.058Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T18:57:51.061Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T18:57:51.062Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T18:57:51.062Z [info]: Successful PUT to change grocery item
+2023-09-15T18:57:51.065Z [info]: Successful GET
+2023-09-15T18:57:51.067Z [info]: Successful DELETE: jello
+2023-09-15T19:02:27.112Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T19:02:27.128Z [info]: Successful GET
+2023-09-15T19:02:27.131Z [info]: Successful DELETE: jello
+2023-09-15T19:02:27.133Z [info]: Successful GET
+2023-09-15T19:02:27.140Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T19:02:27.142Z [info]: Successful GET
+2023-09-15T19:02:27.145Z [info]: Successful DELETE: jello
+2023-09-15T19:02:27.146Z [info]: Successful GET
+2023-09-15T19:02:27.149Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T19:02:27.152Z [warn]: Wasn't able to delete because no item name
+2023-09-15T19:02:27.155Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T19:02:27.157Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T19:02:27.157Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T19:02:27.158Z [info]: Successful PUT to change grocery item
+2023-09-15T19:02:27.160Z [info]: Successful GET
+2023-09-15T19:02:27.162Z [info]: Successful DELETE: jello
+2023-09-15T19:02:37.820Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T19:02:37.834Z [info]: Successful GET
+2023-09-15T19:02:37.840Z [info]: Successful DELETE: jello
+2023-09-15T19:02:37.842Z [info]: Successful GET
+2023-09-15T19:02:37.849Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T19:02:37.852Z [info]: Successful GET
+2023-09-15T19:02:37.855Z [info]: Successful DELETE: jello
+2023-09-15T19:02:37.860Z [info]: Successful GET
+2023-09-15T19:02:37.864Z [warn]: Wasn't able to delete because invalid item name
+2023-09-15T19:02:37.871Z [warn]: Wasn't able to delete because no item name
+2023-09-15T19:02:37.876Z [info]: Successful POST:
+[{"item":"jello","quantity":23,"price":5,"bought":false}]
+2023-09-15T19:02:37.880Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T19:02:37.881Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T19:02:37.881Z [info]: Successful PUT to change grocery item
+2023-09-15T19:02:37.884Z [info]: Successful GET
+2023-09-15T19:02:37.888Z [info]: Successful DELETE: jello
