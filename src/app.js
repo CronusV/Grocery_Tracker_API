@@ -123,7 +123,6 @@ const server = http.createServer((req, res) => {
     });
     // Delete with query params, example http://localhost:3000/?item=jello
   } else if (req.method === 'DELETE') {
-    console.log('in delete!');
     const requestUrl = url.parse(req.url).query; //gets item=jello
     // This allows us to search the query
     const deleteItem = new URLSearchParams(requestUrl);
