@@ -566,3 +566,35 @@
 {"item":"jello","quantity":23,"price":5,"bought":false}
 2023-09-15T20:56:13.575Z [info]: New groceryItem:
 {"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:00:58.033Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:00:58.034Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:02:26.053Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:02:26.054Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:03:47.200Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:03:47.202Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:04:11.440Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:04:11.441Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:05:48.934Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:05:48.935Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:07:21.757Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:07:21.758Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:08:53.585Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:08:53.587Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:12:44.686Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:12:44.688Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}

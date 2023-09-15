@@ -16,6 +16,7 @@ let groceryList = [];
 // };
 // groceryList.push(temp);
 
+// Returns true if found valid item to edit
 function editGrocery(newItem) {
   // Didn't provide an item to change
   if (!'item' in newItem) return false;
@@ -35,10 +36,12 @@ function editGrocery(newItem) {
 }
 function deleteItemInGrocery(itemName) {
   const oldSize = groceryList.length;
+
   groceryList = groceryList.filter((groceryItem) => {
     return groceryItem.item !== itemName;
   });
   // Nothing changed
+
   if (oldSize === groceryList.length) {
     return false;
   } else {

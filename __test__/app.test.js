@@ -116,3 +116,36 @@ describe('Edit data into groceryList (PUT)', () => {
     expect(editGrocery(newItem)).toBeFalsy();
   });
 });
+
+describe('Delete items in groceryList (DELETE)', () => {
+  const groceryItem = {
+    item: 'jello',
+    quantity: 23,
+    price: 5,
+    bought: false,
+  };
+  beforeAll(() => {
+    groceryList.splice(0, groceryList.length);
+  });
+
+  afterAll(() => {
+    groceryList.splice(0, groceryList.length);
+  });
+
+  beforeEach(() => {
+    pushGroceryList(groceryItem);
+  });
+
+  afterEach(() => {
+    groceryList.splice(0, groceryList.length);
+  });
+
+  test('Deleting data from groceryList', () => {
+    const itemToDelete = 'jello';
+    expect(deleteItemInGrocery(itemToDelete)).toBeTruthy();
+  });
+  test('Delete data that DOES NOT EXIST', () => {
+    const itemToDelete = 'DOESNOTEXIST';
+    expect(deleteItemInGrocery(itemToDelete)).toBeFalsy();
+  });
+});
