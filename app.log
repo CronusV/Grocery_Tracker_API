@@ -598,3 +598,7 @@
 {"item":"jello","quantity":23,"price":5,"bought":false}
 2023-09-15T21:12:44.688Z [info]: New groceryItem:
 {"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T21:13:58.763Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T21:13:58.764Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
