@@ -111,5 +111,21 @@ describe('Put a grocery item: PUT /api/grocery-edit', () => {
       item: 'DOESNOTEXIST',
     };
     let res = await req(httpServer).put('/api/grocery-edit').send(newItem);
+    expect(res.statusCode).toBe(400);
+    // Make sure item isn't modified
+    res = await req(httpServer).get('/api/grocery-list');
+    const parsedItem = res.body[0];
+    expect(() => {
+      if (
+        parsedItem.item === groceryItem.item &&
+        parsedItem.quantity === groceryItem.quantity &&
+        parsedItem.price === groceryItem.price &&
+        parsedItem.bought == groceryItem.bought
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    }).toBeTruthy();
   });
 });
