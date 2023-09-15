@@ -1,3 +1,5 @@
+// To use this as api testing change file name    to appAPI.test.js and run $ npm test
+
 const req = require('supertest');
 const httpServer = require('../src/app');
 
