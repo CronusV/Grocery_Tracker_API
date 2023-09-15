@@ -8,13 +8,13 @@ const PORT = 3000;
 // This serves as my database (for now)
 let groceryList = [];
 // Testing
-const temp = {
-  item: 'jello',
-  quantity: 23,
-  price: 5,
-  bought: false,
-};
-groceryList.push(temp);
+// const temp = {
+//   item: 'jello',
+//   quantity: 23,
+//   price: 5,
+//   bought: false,
+// };
+// groceryList.push(temp);
 
 function editGrocery(newItem) {
   // Didn't provide an item to change
@@ -155,9 +155,9 @@ const server = http.createServer((req, res) => {
     }
   }
 });
-
-server.listen(PORT, () => {
+// https://stackoverflow.com/questions/33986863/mocha-api-testing-getting-typeerror-app-address-is-not-a-function
+const activeServer = server.listen(PORT, () => {
   console.log(`Server is listening on http://localhost:${PORT}`);
 });
 
-module.exports = { editGrocery, deleteItemInGrocery, server };
+module.exports = activeServer;
