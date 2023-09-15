@@ -106,5 +106,13 @@ describe('Edit data into groceryList (PUT)', () => {
         false;
       }
     }).toBeTruthy();
+    expect(groceryList.length).toBe(1);
+  });
+
+  test('Edit unknown item NOT in groceryList', () => {
+    const newItem = {
+      item: 'DOESNOTEXIST',
+    };
+    expect(editGrocery(newItem)).toBeFalsy();
   });
 });

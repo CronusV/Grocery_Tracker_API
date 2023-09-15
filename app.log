@@ -554,3 +554,15 @@
 {"item":"jello","quantity":23,"price":5,"bought":false}
 2023-09-15T20:49:43.282Z [info]: New groceryItem:
 {"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T20:55:38.681Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T20:55:38.683Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T20:55:38.684Z [info]: Old groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T20:55:38.685Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
+2023-09-15T20:56:13.574Z [info]: Old groceryItem:
+{"item":"jello","quantity":23,"price":5,"bought":false}
+2023-09-15T20:56:13.575Z [info]: New groceryItem:
+{"item":"jello","quantity":54,"price":5333,"bought":true}
