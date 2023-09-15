@@ -59,13 +59,20 @@ const logger = createLogger({
     new transports.File({ filename: 'app.log' }), // log to a file
   ],
 });
+// Gets the grocerlist and turns it into JSON.Stringify
+function getReturn(groceryList) {
+  return JSON.stringify(groceryList);
+}
 
+function pushGroceryList(dataBody) {
+  groceryList.push(data);
+}
 const server = http.createServer((req, res) => {
   // GET for grocery list
   if (req.method === 'GET' && req.url === '/api/grocery-list') {
     logger.info(`Successful GET`);
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(groceryList));
+    res.end(getReturn(groceryList));
     // POST for adding groceries
   } else if (req.method === 'POST' && req.url === '/api/grocery-add') {
     let body = '';
@@ -76,7 +83,8 @@ const server = http.createServer((req, res) => {
     // process request
     req.on('end', () => {
       const data = JSON.parse(body);
-      groceryList.push(data);
+      // groceryList.push(data);
+      pushGroceryList(data);
 
       logger.info(`Successful POST:\n${JSON.stringify(groceryList)}`);
 
