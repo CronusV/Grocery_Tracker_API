@@ -83,7 +83,6 @@ const server = http.createServer((req, res) => {
     // process request
     req.on('end', () => {
       const data = JSON.parse(body);
-      // groceryList.push(data);
       pushGroceryList(data);
 
       logger.info(`Successful POST:\n${JSON.stringify(groceryList)}`);
@@ -168,4 +167,12 @@ const activeServer = server.listen(PORT, () => {
   console.log(`Server is listening on http://localhost:${PORT}`);
 });
 
-module.exports = activeServer;
+// module.exports = activeServer; // TOGGLE THIS FOR API TESTING
+
+module.exports = {
+  groceryList,
+  editGrocery,
+  deleteItemInGrocery,
+  getReturn,
+  pushGroceryList,
+};
