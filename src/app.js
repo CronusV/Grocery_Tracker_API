@@ -65,7 +65,7 @@ function getReturn(groceryList) {
 }
 
 function pushGroceryList(dataBody) {
-  groceryList.push(data);
+  groceryList.push(dataBody);
 }
 const server = http.createServer((req, res) => {
   // GET for grocery list
