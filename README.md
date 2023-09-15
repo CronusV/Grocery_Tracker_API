@@ -23,6 +23,7 @@ This activity involves using the Node.js `http` module, to create a basic API ba
 - HTTP Methods and Status Codes must be used
 - Any data that is transferred must be in JSON format
 - Use Postman to handle testing your API
+- Used Jest and supertest to test API
 
 You do not need to handle authentication, persisting of the data, or a frontend. Verify the behavior of the API using Postman and JSON messages from the server as responses.
 
